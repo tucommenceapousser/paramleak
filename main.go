@@ -5,7 +5,7 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/SharokhAtaie/paramleak/regex"
+	"github.com/tucommenceapousser/paramleak/regex"
 	"github.com/projectdiscovery/goflags"
 	"github.com/projectdiscovery/gologger"
 	fUtils "github.com/projectdiscovery/utils/file"
