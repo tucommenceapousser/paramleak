@@ -1,4 +1,4 @@
-module github.com/SharokhAtaie/paramleak
+module github.com/tucommenceapousser/paramleak
 
 go 1.18
 
