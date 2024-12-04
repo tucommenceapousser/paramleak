@@ -233,5 +233,5 @@ func Banner() {
 ██║     ██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║██║  ██╗
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
 `)
-	gologger.Print().Msgf("\t\tCreated by Sharo_k_h :)\n\n")
+	gologger.Print().Msgf("\t\tModded by Trhacknon :)\n\n")
 }
