@@ -1,12 +1,10 @@
 # ⚡️ **paramleaks** ⚡️  
 ### A tool for extracting parameters from Websites (HTML/JSON)  
-**Modded by [Trhacknon](#)**
 
 ![Modded By](https://img.shields.io/badge/Modded%20by-Trhacknon-ff69b4?style=for-the-badge&logo=github)
 
-```diff
-+ 🎮 **Modded by [Trhacknon](#)** 🎮
-```
++ 🎮 **Mod'z from [SharokhAtaie](https://github.com/SharokhAtaie/paramleak)** 🎮
+
 
 ---
 
