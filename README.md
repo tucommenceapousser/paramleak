@@ -2,7 +2,7 @@
 ### A tool for extracting parameters from Websites (HTML/JSON)  
 ![GitHub Repo stars](https://img.shields.io/github/stars/tucommenceapousser/paramleak?style=for-the-badge&logo=github)
 
-Je voudrais le texte bleu vif 
+ 
 ![anonymous](https://img.shields.io/badge/anonymous-000000?style=for-the-badge&logo=ghost&logoColor=FF0000)
 
 ![TRHACKNON](https://img.shields.io/badge/TRHACKNON-000000?style=for-the-badge&logo=three.js&logoColor=FF0000)
