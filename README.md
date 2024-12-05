@@ -8,7 +8,7 @@
 <details>
 <summary><strong>Cliquez pour afficher les instructions</strong></summary>
 
-```bash
+```ruby
 # Installer depuis la source
 go install github.com/tucommenceapousser/paramleak@latest
 # Compiler
@@ -85,4 +85,4 @@ Un grand merci à SharokhAtaie pour le projet original ! 🙏
 
 ---
 
-🎉 Suivez le projet pour plus de modifications fun par Trhacknon ! 🎉
+👿 Suivez le projet ou contribuez si vous le souhaitez, modifications fun par Trhacknon ! 😈
