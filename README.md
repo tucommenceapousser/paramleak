@@ -1,52 +1,51 @@
-# paramleaks
-```A tool for extract parameters from Websites (HTML/JSON)```
+# ⚡️ **paramleaks** ⚡️  
+### A tool for extracting parameters from Websites (HTML/JSON)  
+**Modded by [Trhacknon](#)**
 
-## TRHACKNON MOD'Z
-**from https://github.com/SharokhAtaie/paramleak**
+---
 
-### Installation:
-```ruby
-#go install github.com/tucommenceapousser/paramleak@latest
-#go build -o paramleak .
+## 🚀 **Installation**  
+<details>
+<summary><strong>Cliquez pour afficher les instructions</strong></summary>
+
+```bash
+# Installer depuis la source
+go install github.com/tucommenceapousser/paramleak@latest
+# Compiler
+go build -o paramleak .
 chmod +x paramleak
+# Lancer le scan avec une liste d'URLs
 ./paramleak -l list.txt
-```
 
+</details>
+---
 
-### Usage:
+🛠️ Usage
 
-```
 ██████╗  █████╗ ██████╗  █████╗ ███╗   ███╗██╗     ███████╗ █████╗ ██╗  ██╗
 ██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗ ████║██║     ██╔════╝██╔══██╗██║ ██╔╝
 ██████╔╝███████║██████╔╝███████║██╔████╔██║██║     █████╗  ███████║█████╔╝ 
 ██╔═══╝ ██╔══██║██╔══██╗██╔══██║██║╚██╔╝██║██║     ██╔══╝  ██╔══██║██╔═██╗ 
 ██║     ██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║██║  ██╗
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-                  Modded by Trhacknon :)
+                   Modded by Trhacknon 🦾
 
-Flags:
-        -url,           -u              Url for Get All parameters
-        -list,          -l              List of Url for Get All parameters
-        -method,        -X              Http Method for requests (GET/POST/PATCH/DELETE/PUT)
-        -body,          -d              Body data for Post/Patch/Delete/Put Requests
-        -header,        -H              Custom Header (You can set only 1 custom header)
-        -delay,         -p              Time for delay example: 1000 Millisecond (1 second)
-        -verbose,       -v              Verbose mode
-        -silent,        -s              Silent mode
 
-```
+---
 
-### Usage:
+⚙️ Flags disponibles
 
-```ruby
-./paramleak -l list.txt
-██████╗  █████╗ ██████╗  █████╗ ███╗   ███╗██╗     ███████╗ █████╗ ██╗  ██╗
-██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗ ████║██║     ██╔════╝██╔══██╗██║ ██╔╝
-██████╔╝███████║██████╔╝███████║██╔████╔██║██║     █████╗  ███████║█████╔╝ 
-██╔═══╝ ██╔══██║██╔══██╗██╔══██║██║╚██╔╝██║██║     ██╔══╝  ██╔══██║██╔═██╗ 
-██║     ██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║██║  ██╗
-╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-                Modded by Trhacknon :)
+<details>
+<summary><strong>Cliquez pour voir tous les flags</strong></summary></details>
+---
+
+🧪 Exemple d'utilisation
+
+<details>
+<summary><strong>Cliquez pour afficher un exemple</strong></summary>./paramleak -l list.txt
+
+Résultat :
+
 something
 test_var
 user_id_i
@@ -61,7 +60,15 @@ empty_var
 param1
 method
 param2
-```
 
-# THX
-SharokhAtaie
+</details>
+---
+
+💬 Remerciements
+
+Un grand merci à SharokhAtaie pour le projet original ! 🙏
+
+
+---
+
+🎉 Suivez le projet pour plus de modifications fun par Trhacknon ! 🎉
