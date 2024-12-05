@@ -16,6 +16,7 @@ go build -o paramleak .
 chmod +x paramleak
 # Lancer le scan avec une liste d'URLs
 ./paramleak -l list.txt
+```
 
 </details>
 ---
@@ -36,7 +37,20 @@ chmod +x paramleak
 ⚙️ Flags disponibles
 
 <details>
-<summary><strong>Cliquez pour voir tous les flags</strong></summary></details>
+<summary><strong>Cliquez pour voir tous les flags</strong></summary>
+
+| Flag        | Alias | Description                                                 |
+|-------------|-------|-------------------------------------------------------------|
+| `-url`      | `-u`  | URL cible pour extraire les paramètres                      |
+| `-list`     | `-l`  | Liste d'URLs pour extraire les paramètres                   |
+| `-method`   | `-X`  | Méthode HTTP (GET, POST, PATCH, DELETE, PUT)                |
+| `-body`     | `-d`  | Données de la requête pour POST/PATCH/DELETE/PUT            |
+| `-header`   | `-H`  | Header personnalisé (un seul supporté)                      |
+| `-delay`    | `-p`  | Délai entre les requêtes (en millisecondes, ex : 1000 = 1s) |
+| `-verbose`  | `-v`  | Mode verbeux                                                |
+| `-silent`   | `-s`  | Mode silencieux                                             |
+
+</details>
 ---
 
 🧪 Exemple d'utilisation
