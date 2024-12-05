@@ -5,7 +5,7 @@
 **from https://github.com/SharokhAtaie/paramleak**
 
 ### Installation:
-```
+```ruby
 #go install github.com/tucommenceapousser/paramleak@latest
 #go build -o paramleak .
 chmod +x paramleak
