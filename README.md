@@ -23,19 +23,14 @@
 ---
 
 <details>
-  <summary><strong>🔍 Exécution avec une liste d'URLs 📸</strong></summary>
+  <summary><strong>🔍 Exécution avec une liste d'URLs 📸 
+    &
+    🔍 Exécution avec une URL 📸</strong></summary>
 
-![Exécution avec une liste d'URLs](https://b.top4top.io/p_3261klgbn0.jpg)
-
-</details>
-
----
-
-<details>
-  <summary><strong>🔍 Exécution avec une URL 📸</strong></summary>
-
-![Exécution avec une URL](https://k.top4top.io/p_3261i55q31.jpg)
-
+<p align="center">
+  <img src="https://b.top4top.io/p_3261klgbn0.jpg" width="45%" />
+  <img src="https://k.top4top.io/p_3261i55q31.jpg" width="45%" />
+</p>
 </details>
 
 ---
