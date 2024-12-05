@@ -4,6 +4,13 @@
 
 ---
 
+### Progression du projet
+- [x] Extraction des paramètres depuis une URL
+- [x] Extraction des paramètres depuis une liste d'URLs
+- [x] Prise en charge de plusieurs méthodes HTTP
+- [ ] Interface utilisateur graphique (en cours) ⏳
+---
+
 # Aperçu du fonctionnement
 
 <details>
