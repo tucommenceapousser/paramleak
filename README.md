@@ -85,4 +85,4 @@ Un grand merci à SharokhAtaie pour le projet original ! 🙏
 
 ---
 
-👿 Suivez le projet ou contribuez si vous le souhaitez, modifications fun par Trhacknon ! 😈
+👿 Suivez le projet ou contribuez si vous le souhaitez, modifications faites par Trhacknon ! 😈
