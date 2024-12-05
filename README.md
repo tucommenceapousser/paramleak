@@ -101,10 +101,15 @@
 🧪 Exemple d'utilisation
 
 <details>
-<summary><strong>Cliquez pour afficher un exemple</strong></summary>./paramleak -l list.txt
+<summary><strong>Cliquez pour afficher un exemple</strong></summary>
+  
+```ruby
+./paramleak -l list.txt
+```
 
 Résultat :
 
+```ruby
 something
 test_var
 user_id_i
@@ -119,7 +124,7 @@ empty_var
 param1
 method
 param2
-
+```
 </details>
 ---
 
