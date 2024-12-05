@@ -1,6 +1,9 @@
 # paramleaks
 ```A tool for extract parameters from Websites (HTML/JSON)```
 
+## TRHACKNON MOD'Z
+**from https://github.com/SharokhAtaie/paramleak**
+
 ### Installation:
 ```
 go install github.com/tucommenceapousser/paramleak@latest
@@ -59,3 +62,6 @@ param1
 method
 param2
 ```
+
+# THX
+SharokhAtaie
