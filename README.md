@@ -6,8 +6,8 @@
 
 ### Installation:
 ```
-go install github.com/tucommenceapousser/paramleak@latest
-go build -o paramleak .
+#go install github.com/tucommenceapousser/paramleak@latest
+#go build -o paramleak .
 chmod +x paramleak
 ./paramleak -l list.txt
 ```
