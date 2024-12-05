@@ -1,5 +1,5 @@
 modules = ["go-1.21"]
-run = "go run main.go"
+run = "./paramleak -u https://www.igrocity.ru/search.php"
 
 [nix]
 channel = "stable-24_05"

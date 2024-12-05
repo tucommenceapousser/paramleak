@@ -3,7 +3,7 @@
 
 ### Installation:
 ```
-go install github.com/SharokhAtaie/paramleak@latest
+go install github.com/tucommenceapousser/paramleak@latest
 ```
 
 
@@ -16,7 +16,7 @@ go install github.com/SharokhAtaie/paramleak@latest
 ██╔═══╝ ██╔══██║██╔══██╗██╔══██║██║╚██╔╝██║██║     ██╔══╝  ██╔══██║██╔═██╗ 
 ██║     ██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║██║  ██╗
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-                  Created by Sharo_k_h :)
+                  Modded by Trhacknon :)
 
 Flags:
         -url,           -u              Url for Get All parameters
@@ -31,15 +31,16 @@ Flags:
 ```
 
 ### Usage:
+
 ```ruby
-➜ ✗ paramleak -u "https://example.com/params.html"
+➜ ✗ paramleak -u "https://www.igrocity.ru/search.php"
 ██████╗  █████╗ ██████╗  █████╗ ███╗   ███╗██╗     ███████╗ █████╗ ██╗  ██╗
 ██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗ ████║██║     ██╔════╝██╔══██╗██║ ██╔╝
 ██████╔╝███████║██████╔╝███████║██╔████╔██║██║     █████╗  ███████║█████╔╝ 
 ██╔═══╝ ██╔══██║██╔══██╗██╔══██║██║╚██╔╝██║██║     ██╔══╝  ██╔══██║██╔═██╗ 
 ██║     ██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║██║  ██╗
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-                Created by Sharo_k_h :)
+                Modded by Trhacknon :)
 something
 test_var
 user_id_i
@@ -54,3 +55,4 @@ empty_var
 param1
 method
 param2
+```

@@ -1,6 +1,8 @@
 package main
 
 import (
+		"github.com/logrusorgru/aurora"
+		// autres imports existants
 	"bufio"
 	"context"
 	"crypto/tls"
@@ -213,25 +215,72 @@ func isValidHTTPMethod(method string) bool {
 
 func printUsage() {
 	Banner()
-	gologger.Print().Msgf("Flags:\n")
-	gologger.Print().Msgf("\t-url,      -u       URL for getting all parameters")
-	gologger.Print().Msgf("\t-list,     -l       List of URLs for getting all parameters")
-	gologger.Print().Msgf("\t-method,   -X       HTTP method for requests")
-	gologger.Print().Msgf("\t-body,     -d       Body data for POST/PATCH requests")
-	gologger.Print().Msgf("\t-header,   -H       Custom header (You can set only 1 custom header)")
-	gologger.Print().Msgf("\t-delay,    -p       Delay time example: 1000 milliseconds (1 second)")
-	gologger.Print().Msgf("\t-verbose,  -v       Verbose mode")
-	gologger.Print().Msgf("\t-silent,   -s       Silent mode")
+//	gologger.Print().Msgf("Flags:\n")
+//	gologger.Print().Msgf("\t-url,      -u       URL for getting all parameters")
+		fmt.Println(aurora.Bold(aurora.Green("Flags:\n")))
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-url, -u")).String() +
+				aurora.Bold(aurora.Blue("       URL for getting all parameters")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-list, -l")).String() +
+				aurora.Bold(aurora.Blue("       List of URLs for getting all parameters")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-method, -X")).String() +
+				aurora.Bold(aurora.Blue("       HTTP method for requests")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-body, -d")).String() +
+				aurora.Bold(aurora.Blue("       Body data for POST/PATCH requests")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-header, -H")).String() +
+				aurora.Bold(aurora.Blue("       Custom header (You can set only 1 custom header)")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-delay, -p")).String() +
+				aurora.Bold(aurora.Blue("       Delay time example: 1000 milliseconds (1 second)")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-verbose, -v")).String() +
+				aurora.Bold(aurora.Blue("       Verbose mode")).String(),
+		)
+
+		fmt.Println(
+			aurora.Bold(aurora.Red("\t-silent, -s")).String() +
+				aurora.Bold(aurora.Blue("       Silent mode")).String(),
+		)
+	}
+
+func printSuccess(msg string) {
+	fmt.Println(aurora.Green(msg))
+}
+
+func printError(msg string) {
+	fmt.Println(aurora.Red(msg))
+}
+
+func printInfo(msg string) {
+	fmt.Println(aurora.Cyan(msg))
 }
 
 func Banner() {
-	gologger.Print().Msgf(`
+	fmt.Println(aurora.Bold(aurora.Magenta(`
 ██████╗  █████╗ ██████╗  █████╗ ███╗   ███╗██╗     ███████╗ █████╗ ██╗  ██╗
 ██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗ ████║██║     ██╔════╝██╔══██╗██║ ██╔╝
 ██████╔╝███████║██████╔╝███████║██╔████╔██║██║     █████╗  ███████║█████╔╝ 
 ██╔═══╝ ██╔══██║██╔══██╗██╔══██║██║╚██╔╝██║██║     ██╔══╝  ██╔══██║██╔═██╗ 
 ██║     ██║  ██║██║  ██║██║  ██║██║ ╚═╝ ██║███████╗███████╗██║  ██║██║  ██╗
 ╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-`)
-	gologger.Print().Msgf("\t\tModded by Trhacknon :)\n\n")
+	`)))
+	fmt.Println(aurora.Bold(aurora.Cyan("\t\tModded by Trhacknon :)\n\n")))
 }
+
