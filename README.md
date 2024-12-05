@@ -36,8 +36,9 @@
 
 <details>
   <summary><strong>🔍 Menu 📸</strong></summary>
-
-![Menu](https://j.top4top.io/p_3261bypwh0.jpg)
+<p align="center">
+  <img src="https://j.top4top.io/p_3261bypwh0.jpg" width="80%" />
+</p>
 
 </details>
 
