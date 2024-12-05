@@ -6,18 +6,23 @@
 
 # Aperçu du fonctionnement
 
----
+<details>
+  <summary><strong>🔍 Menu 📸</strong></summary>
 
-### Menu 📸
-![Aperçu 1](https://j.top4top.io/p_3261bypwh0.jpg)
+![Menu](https://j.top4top.io/p_3261bypwh0.jpg)
 
----
-
-### Exécution avec une liste d'URLs 📸
-![Aperçu 2](https://k.top4top.io/p_3261i55q31.jpg)
+</details>
 
 ---
 
+<details>
+  <summary><strong>🔍 Exécution avec une liste d'URLs 📸</strong></summary>
+
+![Exécution avec une liste d'URLs](https://k.top4top.io/p_3261i55q31.jpg)
+
+</details>
+
+---
 
 ## 🚀 **Installation**  
 <details>
