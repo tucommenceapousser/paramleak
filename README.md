@@ -4,6 +4,9 @@
 ### Installation:
 ```
 go install github.com/tucommenceapousser/paramleak@latest
+go build -o paramleak .
+chmod +x paramleak
+./paramleak -l list.txt
 ```
 
 
@@ -33,7 +36,7 @@ Flags:
 ### Usage:
 
 ```ruby
-➜ ✗ paramleak -u "https://www.igrocity.ru/search.php"
+./paramleak -l list.txt
 ██████╗  █████╗ ██████╗  █████╗ ███╗   ███╗██╗     ███████╗ █████╗ ██╗  ██╗
 ██╔══██╗██╔══██╗██╔══██╗██╔══██╗████╗ ████║██║     ██╔════╝██╔══██╗██║ ██╔╝
 ██████╔╝███████║██████╔╝███████║██╔████╔██║██║     █████╗  ███████║█████╔╝ 

@@ -1,5 +1,5 @@
 modules = ["go-1.21"]
-run = "./paramleak -u https://www.igrocity.ru/search.php"
+run = "./paramleak -l list.txt"
 
 [nix]
 channel = "stable-24_05"
