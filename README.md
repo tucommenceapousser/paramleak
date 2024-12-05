@@ -3,6 +3,10 @@
 
 ![Modded By](https://img.shields.io/badge/Modded%20by-Trhacknon-ff69b4?style=for-the-badge&logo=github)
 
+![Trhacknon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tucommenceapousser&show_icons=true&count_private=true&hide=prs&theme=tokyonight&bg_color=000000&title_color=ff0000&text_color=ff0000&border_color=ff0000)
+![Trhacknon's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tucommenceapousser&layout=compact&theme=radical)
+![Followers Badge](https://img.shields.io/github/followers/tucommenceapousser?label=Followers&style=social)
+
 + 🎮 **Mod'z from [SharokhAtaie](https://github.com/SharokhAtaie/paramleak)** 🎮
 
 
