@@ -3,6 +3,8 @@
 
 ![Modded By](https://img.shields.io/badge/Modded%20by-Trhacknon-ff69b4?style=for-the-badge&logo=github)
 
+![Repos](https://img.shields.io/github/forks/tucommenceapousser?style=for-the-badge&label=repos&color=0099ff)
+
 ![Trhacknon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tucommenceapousser&show_icons=true&count_private=true&hide=prs&theme=tokyonight&bg_color=000000&title_color=ff0000&text_color=ff0000&layout=compact&border_color=0099ff)
 
 ![Trhacknon's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tucommenceapousser&layout=compact&theme=highcontrast&border_color=1b03a3)
