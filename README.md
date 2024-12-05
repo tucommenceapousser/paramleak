@@ -3,6 +3,7 @@
 
 ![Modded By](https://img.shields.io/badge/Modded%20by-Trhacknon-ff69b4?style=for-the-badge&logo=github)
 
+![Followers](https://img.shields.io/github/followers/tucommenceapousser?style=for-the-badge&color=ff0000)
 
 ![Trhacknon's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tucommenceapousser&show_icons=true&count_private=true&hide=prs&theme=tokyonight&bg_color=000000&title_color=ff0000&text_color=ff0000&layout=compact&border_color=0099ff)
 
