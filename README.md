@@ -43,14 +43,24 @@
 <details>
 <summary><strong>Cliquez pour afficher les instructions</strong></summary>
 
-```ruby
+```diff
++ obligatoire
+- eventuel
+```
+```diff
 # Installer depuis la source
-go install github.com/tucommenceapousser/paramleak@latest
+- go install github.com/tucommenceapousser/paramleak@latest
+```
+```diff
+- git clone https://github.com/tucommenceapousser/paramleak
+- go install
 # Compiler
-go build -o paramleak .
-chmod +x paramleak
+- go build -o paramleak .
++ chmod +x paramleak
+```
+```diff
 # Lancer le scan avec une liste d'URLs
-./paramleak -l list.txt
++ ./paramleak -l list.txt
 ```
 
 </details>
