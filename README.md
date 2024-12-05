@@ -94,7 +94,7 @@
 ```
 ```ruby
 # Lancer le scan avec une liste d'URLs
-+ ./paramleak -l list.txt
+./paramleak -l list.txt
 ```
 Résultat :
 
